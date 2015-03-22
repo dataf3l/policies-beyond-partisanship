@@ -1,0 +1,94 @@
+body {
+	background-image:url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.tool_item {
+	background-color:none;
+}
+.section_title {
+	margin-top:100px;
+	width:500px;	
+	font-weight:bold;
+	font-family:"courier new";
+	font-size:18pt;
+	border:2px solid transparent;
+	background-color:transparent;
+	clear:left;
+}
+.content{
+	font-family:"source code pro";
+	padding-left:150px;
+	padding-top:150px;
+	height:800px;
+}
+.section {
+	width:1000px;
+}
+.section_title {}
+.section_textarea {
+        resize: none;
+	float:left;
+	display:inline-block;
+	width:500px;
+	height:142px;
+	border:2px solid transparent;
+	background:none;
+	background-color:transparent;
+	line-height:1.5em;
+	text-align:justify;
+
+}
+.section_textarea:focus , .section_title:focus , .section_title:hover, .section_textarea:hover {
+	border:2px dotted black;
+}
+
+.stats {
+	float:right;
+	display:inline-block;
+	
+	width:400px;
+	height:150px;
+}
+.stats_against {
+	background-color:rgb(216,64,68);
+}
+.stats_for {
+	background-color:rgb(123,208,107);
+}
+.stats_bar{
+	/*height:30px;*/
+	padding:10px;
+	margin-bottom:10px;
+	border-radius:4px;
+}
+
+.tools {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.comment_counter {
+	width:32px;
+	height:32px;
+	background-image:url("./DefaultIcon/png/32x32/chat.png");
+	/*padding:4px;*/ 
+	padding-top:2px;	
+	color:white;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.lefty {
+	float:left;
+}
+#new_section_content {
+	border:2px dotted black;
+}
+#new_section_title {
+	border:2px dotted black;
+}
+.interactive:hover{
+	opacity:0.5;
+}
+#new_section_title {
+	margin-top: 0px;
+}
