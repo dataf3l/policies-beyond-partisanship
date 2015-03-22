@@ -1,7 +1,8 @@
-		<input class=section_title type=text value='<?php echo($title); ?>' />
-		<br/>
 		<div class=section>
-		<textarea class=section_textarea><?php echo($content); ?></textarea>
+			<div class=section_data>
+				<input class=section_title type=text value='<?php echo($title); ?>' />
+				<textarea class=section_textarea><?php echo($content); ?></textarea>
+			</div>
 			<div class=stats>
 				<div class='stats_for stats_bar' style='width:<?php echo($yay * 20);?>px'>Yes: <?php echo($yay);?></div>
 				<div class='stats_against stats_bar' style='width:<?php echo($nay * 20);?>px'>No: <?php echo($nay);?></div>
