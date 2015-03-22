@@ -1,5 +1,5 @@
 body {
-	background-image:url("bg.jpg");
+	background-image:url("bg2.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -19,7 +19,6 @@ body {
 .content{
 	font-family:"source code pro";
 	padding-left:150px;
-	padding-top:150px;
 	height:800px;
 }
 .section {
@@ -91,4 +90,25 @@ body {
 }
 #new_section_title {
 	margin-top: 0px;
+}
+.comments_box {
+	display: block;
+	border: 1px solid black;
+	float: left;
+	background-color: black;
+	color: white;
+	border-radius: 19px;
+	padding: 20px;
+	display:inline-block;
+	position: absolute;
+	width: 300px;
+}
+.comments_box_input{
+	background-color: black;
+	border: 2px dotted white;
+	color: white;
+	width: 240px;
+}
+.comments_box * {
+     pointer-events: none;
 }
